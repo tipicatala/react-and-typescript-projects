@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.tsx"],"names":["rootElement","document","getElementById","render"],"mappings":"4IAAA,yBAEA,MAAMA,EAAcC,SAASC,eAAe,QAC5CC,iBAAO,wBAASH,K","file":"static/js/main.9cfb03e1.chunk.js","sourcesContent":["import { render } from 'react-dom';\n\nconst rootElement = document.getElementById('root');\nrender(<div />, rootElement);\n"],"sourceRoot":""}
