@@ -1,20 +1,30 @@
 {
   "name": "react-typescript-projects",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "react-typescript-projects",
+  "dependencies": {
+    "lodash.shuffle": "^4.2.0",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tipicatala/react-and-typescript-projects.git"
+  "devDependencies": {
+    "@types/react": "17.0.3",
+    "@types/react-dom": "17.0.3",
+    "node-sass": "^5.0.0",
+    "recursive-install": "^1.4.0",
+    "typescript": "^4.2.3"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tipicatala/react-and-typescript-projects/issues"
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
   },
-  "homepage": "https://github.com/tipicatala/react-and-typescript-projects#readme"
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
